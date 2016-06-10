@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_corner_shap"
+    >
+    <ImageView
+        android:id="@+id/favourate_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test_favourate"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/content_textsiz"
+        android:textColor="@color/black"
+        android:text="测试测试测试"
+        android:layout_margin="10dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/content_textsiz"
+            android:textColor="@color/red_selector"
+            android:text="¥ "
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/content_textsiz"
+            android:textColor="@color/red_selector"
+            android:text="43.9"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="@dimen/icon_height_30"
+            android:layout_height="@dimen/icon_height_30"
+            android:padding="2dp"
+            android:src="@drawable/icon_delete"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>

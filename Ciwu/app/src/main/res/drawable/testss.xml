@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/start_page1"/>
+    <item android:drawable="@mipmap/start_page2"/>
+    <item android:drawable="@mipmap/start_page3"/>
+    <item android:drawable="@mipmap/start_page4"/>
+    <item android:drawable="@mipmap/start_page5"/>
+    <item android:drawable="@mipmap/start_page6"/>
+</selector>

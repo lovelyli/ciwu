@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_favourite_footprint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:gravity="center"
+            android:background="@color/white"
+            >
+
+            <include layout="@layout/title_item"
+                />
+            <include layout="@layout/tab_two"
+                />
+        </RelativeLayout>
+        <GridView
+            android:id="@+id/ff_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_light0"
+            android:padding="@dimen/activity_margin"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:scrollbars="none"
+            />
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/ff_swiplistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:scrollbars="none"
+            />
+</LinearLayout>

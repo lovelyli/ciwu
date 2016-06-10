@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.TabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_home_tablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    app:tabIndicatorColor="#FD6363"
+    app:tabSelectedTextColor="#FD6363"
+    app:tabTextColor="#707070"
+    app:tabMode="scrollable"
+    app:tabGravity="center"
+    app:tabIndicatorHeight="2dp"
+    android:layout_marginBottom="4dp"
+    android:background="#ffffff"
+    />

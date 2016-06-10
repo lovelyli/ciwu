@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_home_viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/hejitu"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/list_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大家都在读【第12期】"
+        android:textColor="#777777"
+        android:gravity="center"
+        android:textSize="@dimen/content_textsiz"
+        android:layout_margin="6dp"
+        />
+
+
+</LinearLayout>

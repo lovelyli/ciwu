@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_home_zhanwei"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:gravity="center_vertical"
+    android:background="@null"
+    >
+    <ImageView
+        android:id="@+id/title_home_searchimage"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/sousuo1"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_alignParentRight="true"
+
+        />
+    <LinearLayout
+        android:id="@+id/title_home_searchcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#ffffff"
+        >
+        <include layout="@layout/title_home_search"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

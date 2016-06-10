@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseProject/BaseProject.iml" filepath="$PROJECT_DIR$/BaseProject/BaseProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ciwu.iml" filepath="$PROJECT_DIR$/Ciwu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollablayoutlib/scrollablayoutlib.iml" filepath="$PROJECT_DIR$/scrollablayoutlib/scrollablayoutlib.iml" />
+    </modules>
+  </component>
+</project>

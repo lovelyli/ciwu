@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/radiogroup"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_alignParentBottom="true"
+android:orientation="horizontal"
+android:gravity="center_vertical|center"
+android:background="@color/white"
+android:paddingBottom="5dp"
+android:paddingTop="5dp"
+    >
+<LinearLayout
+    android:id="@+id/sy_page1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/radio_home_selector"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_12"
+        android:textColor="@drawable/radio_textcolor_selector"
+        android:text="首页"
+        />
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/sy_page2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/radio_single_selector"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/radio_textcolor_selector"
+        android:textSize="@dimen/textsize_12"
+        android:text="单品"
+        />
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/sy_page3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/radio_chosse_selector"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/radio_textcolor_selector"
+        android:textSize="@dimen/textsize_12"
+        android:text="挑礼"
+        />
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/sy_page4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/radio_meida_selector"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/radio_textcolor_selector"
+        android:textSize="@dimen/textsize_12"
+        android:text="美搭"
+        />
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/sy_page5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/radio_my_selector"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/radio_textcolor_selector"
+        android:textSize="@dimen/textsize_12"
+        android:text="我的"
+        />
+</LinearLayout>
+</RadioGroup>

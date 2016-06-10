@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/title_height"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    >
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/tab_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_gray_shape"
+        android:padding="1dp"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:id="@+id/left_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="喜欢"
+            android:background="@drawable/tab_left_selector"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:checked="true"
+            android:textSize="@dimen/content_textsiz"
+            android:textColor="@drawable/tab_textcolor_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/right_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="足迹"
+            android:background="@drawable/tab_right_selector"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="@dimen/content_textsiz"
+            android:textColor="@drawable/tab_textcolor_selector"
+            />
+
+    </RadioGroup>
+
+</RadioGroup>
